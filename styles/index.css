@@ -6,8 +6,35 @@
 
 body {
   background: rgb(16, 13, 32);
+  box-sizing: border-box;
+  margin: 2% 5%;
   color: white;
+}
+body header {
+  border: 1px solid yellow;
+}
+body header nav {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+body header nav .logo {
+  border: 1px solid rgb(232, 233, 228);
+}
+body header nav .logo .logo-svg {
+  height: 30px;
 }
 body header nav .nav-div {
   color: white;
+}
+body header nav .nav-div ul {
+  display: flex;
+  text-decoration: none;
+}
+body header nav .nav-div ul li {
+  list-style: none;
+}
+body header nav .nav-div ul li .a-links {
+  color: white;
+  text-decoration: none;
 }/*# sourceMappingURL=index.css.map */

@@ -6,15 +6,42 @@
 
 body{
     background: rgb(16, 13, 32);
+    box-sizing: border-box;
+    margin: 2% 5%;
     color: white;
 
     header{
+        border: 1px solid yellow;
         nav{
+            display: flex;
+            justify-content: space-between;
+            justify-items: center;
             .logo{
+                border: 1px solid rgb(232, 233, 228);
+                .logo-svg{
+                    height: 30px;
+
+                }
 
             }
             .nav-div{
                 color: white;
+
+                ul{
+                    display: flex;
+                    text-decoration: none;
+                    
+
+                    li{
+                        list-style: none;
+
+                        .a-links{
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                
             }
         }
     }
