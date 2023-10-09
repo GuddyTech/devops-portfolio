@@ -1,1 +1,13 @@
-/*# sourceMappingURL=index.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: rgb(16, 13, 32);
+  color: white;
+}
+body header nav .nav-div {
+  color: white;
+}/*# sourceMappingURL=index.css.map */
