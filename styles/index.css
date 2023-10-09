@@ -5,7 +5,7 @@
 }
 
 body {
-  background: rgb(16, 13, 32);
+  background-image: url(./../images/pexels-sky.jpg);
   box-sizing: border-box;
   margin: 2% 5%;
   color: white;
@@ -18,11 +18,9 @@ body header nav {
   justify-content: space-between;
   justify-items: center;
 }
-body header nav .logo {
-  border: 1px solid rgb(232, 233, 228);
-}
 body header nav .logo .logo-svg {
   height: 30px;
+  justify-items: center;
 }
 body header nav .nav-div {
   color: white;

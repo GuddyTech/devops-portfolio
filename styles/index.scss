@@ -5,7 +5,8 @@
 }
 
 body{
-    background: rgb(16, 13, 32);
+    // background: rgb(16, 13, 32);
+    background-image: url(./../images/pexels-sky.jpg);
     box-sizing: border-box;
     margin: 2% 5%;
     color: white;
@@ -17,9 +18,10 @@ body{
             justify-content: space-between;
             justify-items: center;
             .logo{
-                border: 1px solid rgb(232, 233, 228);
+                // border: 1px solid rgb(232, 233, 228);
                 .logo-svg{
                     height: 30px;
+                    justify-items: center;
 
                 }
 
@@ -76,7 +78,7 @@ body{
 
                     }
                     .eff{
-                        
+
                     }
 
 
