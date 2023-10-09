@@ -26,10 +26,12 @@ body{
             }
             .nav-div{
                 color: white;
+                align-self: center;
 
                 ul{
                     display: flex;
                     text-decoration: none;
+                    gap: 70px;
                     
 
                     li{
@@ -38,6 +40,12 @@ body{
                         .a-links{
                             color: white;
                             text-decoration: none;
+                            font-family: sans-serif;
+
+                            &:hover {
+                                color: rgb(45, 111, 116);
+                               
+                            }
                         }
                     }
                 }

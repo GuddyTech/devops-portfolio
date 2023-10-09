@@ -26,10 +26,12 @@ body header nav .logo .logo-svg {
 }
 body header nav .nav-div {
   color: white;
+  align-self: center;
 }
 body header nav .nav-div ul {
   display: flex;
   text-decoration: none;
+  gap: 70px;
 }
 body header nav .nav-div ul li {
   list-style: none;
@@ -37,4 +39,8 @@ body header nav .nav-div ul li {
 body header nav .nav-div ul li .a-links {
   color: white;
   text-decoration: none;
+  font-family: sans-serif;
+}
+body header nav .nav-div ul li .a-links:hover {
+  color: rgb(45, 111, 116);
 }/*# sourceMappingURL=index.css.map */
