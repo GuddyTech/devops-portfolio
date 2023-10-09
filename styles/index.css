@@ -10,9 +10,6 @@ body {
   margin: 2% 5%;
   color: white;
 }
-body header {
-  border: 1px solid yellow;
-}
 body header nav {
   display: flex;
   justify-content: space-between;
@@ -41,4 +38,8 @@ body header nav .nav-div ul li .a-links {
 }
 body header nav .nav-div ul li .a-links:hover {
   color: black;
+}
+body main section .sec-div2 {
+  display: flex;
+  gap: 50px;
 }/*# sourceMappingURL=index.css.map */

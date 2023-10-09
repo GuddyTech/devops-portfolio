@@ -12,7 +12,7 @@ body{
     color: white;
 
     header{
-        border: 1px solid yellow;
+        // border: 1px solid yellow;
         nav{
             display: flex;
             justify-content: space-between;
@@ -69,8 +69,11 @@ body{
                 }
             }
             .sec-div2{
+                display: flex;
+                gap: 50px;
 
                 .sec1-div2-img{
+                    
 
                     .speed{
 
