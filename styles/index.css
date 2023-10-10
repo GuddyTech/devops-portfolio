@@ -53,6 +53,9 @@ body main section .sec-div2 {
 body main section .sec-div2 .sec1-div2-img {
   justify-items: center;
 }
+body main section .sec-div2 .sec1-div2-img .speed:hover {
+  transform: rotateZ(-45deg);
+}
 body main section .sec-div2 .sec1-div2-img .rel {
   height: 37px;
   padding-bottom: 10px;

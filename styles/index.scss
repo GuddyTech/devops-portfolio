@@ -86,6 +86,10 @@ body{
 
                     .speed{
 
+                        &:hover{
+                            transform: rotateZ(-45deg);
+                        }
+
                     }
                     .rel{
                         height: 37px;
@@ -120,7 +124,9 @@ body{
                         box-shadow: 0px 0px 5px 5px rgb(142, 230, 132);
                         // background-color: rgb(69, 122, 64);
                         // color: black;
+                        // border: 1px solid black;
                         transition: .3s ease-in-out;
+                        
 
                     }
                     
