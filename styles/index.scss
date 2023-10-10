@@ -85,9 +85,12 @@ body{
                     
 
                     .speed{
+                        transition: all 1s ease-in-out;
+                        cursor: progress;
 
                         &:hover{
-                            transform: rotateZ(-45deg);
+                            transition: all 1s ease-in-out;
+                            transform: rotateZ(360deg);
                         }
 
                     }
@@ -95,9 +98,24 @@ body{
                         height: 37px;
                         // border: 1px solid green;
                         padding-bottom: 10px;
+                        transition: all 1s ease-in-out;
+                        cursor: progress;
+
+                        &:hover{
+                            transition: all 1s ease-in-out;
+                            transform: rotateZ(360deg);
+                        }
+
 
                     }
                     .eff{
+                        transition: all 1s ease-in-out;
+                        cursor: progress;
+
+                        &:hover{
+                            transition: all 1s ease-in-out;
+                            transform: rotateZ(360deg);
+                        }
 
                     }
 

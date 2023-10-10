@@ -53,12 +53,31 @@ body main section .sec-div2 {
 body main section .sec-div2 .sec1-div2-img {
   justify-items: center;
 }
+body main section .sec-div2 .sec1-div2-img .speed {
+  transition: all 1s ease-in-out;
+  cursor: progress;
+}
 body main section .sec-div2 .sec1-div2-img .speed:hover {
-  transform: rotateZ(-45deg);
+  transition: all 1s ease-in-out;
+  transform: rotateZ(360deg);
 }
 body main section .sec-div2 .sec1-div2-img .rel {
   height: 37px;
   padding-bottom: 10px;
+  transition: all 1s ease-in-out;
+  cursor: progress;
+}
+body main section .sec-div2 .sec1-div2-img .rel:hover {
+  transition: all 1s ease-in-out;
+  transform: rotateZ(360deg);
+}
+body main section .sec-div2 .sec1-div2-img .eff {
+  transition: all 1s ease-in-out;
+  cursor: progress;
+}
+body main section .sec-div2 .sec1-div2-img .eff:hover {
+  transition: all 1s ease-in-out;
+  transform: rotateZ(360deg);
 }
 body main section .button-div .contact {
   border-radius: 5px;
