@@ -71,14 +71,21 @@ body{
             .sec-div2{
                 display: flex;
                 gap: 50px;
+                // border: 1px solid red;
 
                 .sec1-div2-img{
+                    justify-items: center;
+                    // align-items: left;
+                    // border: 1px solid green;
                     
 
                     .speed{
 
                     }
                     .rel{
+                        height: 37px;
+                        // border: 1px solid green;
+                        padding-bottom: 10px;
 
                     }
                     .eff{

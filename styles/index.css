@@ -42,4 +42,11 @@ body header nav .nav-div ul li .a-links:hover {
 body main section .sec-div2 {
   display: flex;
   gap: 50px;
+}
+body main section .sec-div2 .sec1-div2-img {
+  justify-items: center;
+}
+body main section .sec-div2 .sec1-div2-img .rel {
+  height: 37px;
+  padding-bottom: 10px;
 }/*# sourceMappingURL=index.css.map */
