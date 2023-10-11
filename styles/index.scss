@@ -6,7 +6,7 @@
 
 body{
     // background: rgb(16, 13, 32);
-    background-image: url(./../images/pexels-sky.jpg);
+    background-image: url(./../images/pexels-hand.jpg);
     box-sizing: border-box;
     margin: 2% 5%;
     color: white;
@@ -45,10 +45,12 @@ body{
                             color: white;
                             text-decoration: none;
                             font-family: sans-serif;
+                            transition: all .3s ease-in-out;
 
                             &:hover {
                                 // color: rgb(45, 111, 116);
-                                color: black;
+                                color: rgb(91, 233, 76);
+                                transition: all .3s ease-in-out;
                                
                             }
                         }
