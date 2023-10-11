@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-image: url(./../images/pexels-sky.jpg);
+  box-sizing: border-box;
+  margin: 2% 5%;
+  color: white;
+}
+body header nav {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+body header nav .logo .logo-svg {
+  height: 30px;
+  justify-items: center;
+}
+body header nav .nav-div {
+  color: white;
+  align-self: center;
+}
+body header nav .nav-div ul {
+  display: flex;
+  text-decoration: none;
+  gap: 70px;
+}
+body header nav .nav-div ul li {
+  list-style: none;
+}
+body header nav .nav-div ul li .a-links {
+  color: white;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+body header nav .nav-div ul li .a-links:hover {
+  color: black;
+}
+body main section .svg-502-div .svg-502-img {
+  height: 80vh;
+  position: absolute;
+  right: 1vh;
+}
+body main section .sec-div1 h1 {
+  font-size: 50px;
+}
+body main section .sec-div1 .p-help {
+  font-size: 20px;
+  font-weight: 600;
+}
+body main section .sec-div2 {
+  display: flex;
+  gap: 50px;
+}
+body main section .sec-div2 .sec1-div2-img {
+  justify-items: center;
+}
+body main section .sec-div2 .sec1-div2-img .speed {
+  transition: all 1s ease-in-out;
+  cursor: progress;
+}
+body main section .sec-div2 .sec1-div2-img .speed:hover {
+  transition: all 1s ease-in-out;
+  transform: rotateZ(360deg);
+}
+body main section .sec-div2 .sec1-div2-img .rel {
+  height: 37px;
+  padding-bottom: 10px;
+  transition: all 1s ease-in-out;
+  cursor: progress;
+}
+body main section .sec-div2 .sec1-div2-img .rel:hover {
+  transition: all 1s ease-in-out;
+  transform: rotateZ(360deg);
+}
+body main section .sec-div2 .sec1-div2-img .eff {
+  transition: all 1s ease-in-out;
+  cursor: progress;
+}
+body main section .sec-div2 .sec1-div2-img .eff:hover {
+  transition: all 1s ease-in-out;
+  transform: rotateZ(360deg);
+}
+body main section .button-div .contact {
+  border-radius: 5px;
+  border: 1px solid white;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  height: 40px;
+  width: 100px;
+  transition: 0.3s ease-in-out;
+}
+body main section .button-div .contact:hover {
+  box-shadow: 0px 0px 5px 5px rgb(142, 230, 132);
+  transition: 0.3s ease-in-out;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1080px) {
+  .svg-502-img {
+    width: 40vw;
+    height: 800vh;
+    position: absolute;
+    right: 1vh;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .svg-502-img {
+    width: 40vw;
+    height: 8vh;
+    position: absolute;
+    right: 1vh;
+    bottom: -60vh;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+  .svg-502-img {
+    width: 30em;
+    height: 20em;
+    position: absolute;
+    left: 15em;
+    top: 25vh;
+  }
+}/*# sourceMappingURL=about.css.map */
