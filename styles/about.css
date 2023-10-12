@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(./../images/pexels-hand.jpg);
+  background-image: url(../images/pexels-glasses.jpg);
   box-sizing: border-box;
   margin: 2% 5%;
   color: white;
@@ -52,7 +52,8 @@ body main section .sec-div1 h1 {
 }
 body main section .sec-div1 .p-help {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 300;
+  font-family: "nunito";
 }
 body main section .sec-div2 {
   display: flex;
