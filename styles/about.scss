@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     border: 0;
+    
 }
 
 body{
     // background: rgb(24, 24, 41);
-    background-image: url(../images/pexels-glasses.jpg);
+    background-image: url(../images/pexels-sky.jpg);
     box-sizing: border-box;
     margin: 2% 5%;
     color: white;
@@ -86,11 +87,28 @@ body{
 
                 }
 
+                .ul-stat{
+                    color: white;
+                    
+                    .li-img{
+                        color: white;
+                        
+                    }
+                }
+
                 .p-help{
                     font-size: 20px;
                     font-weight: 300;
                     font-family: 'nunito';
+                    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+                    // background-color: rgba(27, 121, 184, 0.226);
                     // color: yellow;
+                    // border: 1px solid black;
+                    border-radius: 10px;
+
+                    
+
+                    
 
 
                 }

@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(../images/pexels-glasses.jpg);
+  background-image: url(../images/pexels-sky.jpg);
   box-sizing: border-box;
   margin: 2% 5%;
   color: white;
@@ -50,10 +50,18 @@ body main section .svg-502-div .svg-502-img {
 body main section .sec-div1 h1 {
   font-size: 50px;
 }
+body main section .sec-div1 .ul-stat {
+  color: white;
+}
+body main section .sec-div1 .ul-stat .li-img {
+  color: white;
+}
 body main section .sec-div1 .p-help {
   font-size: 20px;
   font-weight: 300;
   font-family: "nunito";
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  border-radius: 10px;
 }
 body main section .sec-div2 {
   display: flex;
