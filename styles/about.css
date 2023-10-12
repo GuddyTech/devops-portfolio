@@ -42,9 +42,10 @@ body header nav .nav-div ul li .a-links:hover {
   transition: all 0.3s ease-in-out;
 }
 body main section .svg-502-div .svg-502-img {
-  height: 80vh;
+  height: 50vh;
   position: absolute;
-  right: 1vh;
+  right: 30vh;
+  top: 20vh;
 }
 body main section .sec-div1 h1 {
   font-size: 50px;
