@@ -51,10 +51,10 @@ body main section .sec-div1 h1 {
   font-size: 50px;
 }
 body main section .sec-div1 .ul-stat {
-  color: white;
+  color: rgb(247, 14, 14);
 }
 body main section .sec-div1 .ul-stat .li-img {
-  color: white;
+  color: rgb(14, 230, 25);
 }
 body main section .sec-div1 .p-help {
   font-size: 20px;
