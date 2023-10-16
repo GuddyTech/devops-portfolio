@@ -93,7 +93,8 @@ body{
                     .li-img{
                         color: white;
                         font-size: 20px;
-                        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+                        font-weight: 300;
+                        text-shadow: 2px 2px 0px rgb(0, 0, 0);
 
                     }
                 }
@@ -107,12 +108,7 @@ body{
                     // color: yellow;
                     // border: 1px solid black;
                     // border-radius: 10px;
-
                     
-
-                    
-
-
                 }
             }
             .sec-div2{
@@ -122,6 +118,7 @@ body{
 
                 .sec1-div2-img{
                     justify-items: center;
+                    text-shadow: 1px 1px 1px rgb(0, 0, 0);
                     // align-items: left;
                     // border: 1px solid green;
                     
