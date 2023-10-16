@@ -114,7 +114,7 @@ body main section .button-div .contact:hover {
   transition: 0.3s ease-in-out;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1080px) {
+@media only screen and (min-width: 320px) and (max-width: 1080px) and (orientation: landscape) {
   .svg-502-img {
     width: 40vw;
     height: 800vh;

@@ -30,3 +30,13 @@ DESKTOP
 NB: START WITH DESKTOP THEN TABLETS BEFORE PHONE
 
 If the max-width was 425px the next min-width should be 426px to another max-width
+
+
+Dimension Resolution: 320 x 278 is landscape
+320: width
+278: height
+
+
+Dimension Resolution: 278 x 320 is portrait
+278: width
+320: height
