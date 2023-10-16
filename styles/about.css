@@ -52,13 +52,14 @@ body main section .sec-div1 h1 {
 }
 body main section .sec-div1 .ul-stat .li-img {
   color: white;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 body main section .sec-div1 .p-help {
   font-size: 20px;
   font-weight: 300;
   font-family: "nunito";
   text-shadow: 1px 1px 1px rgb(0, 0, 0);
-  border-radius: 10px;
 }
 body main section .sec-div2 {
   display: flex;
