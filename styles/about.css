@@ -114,7 +114,7 @@ body main section .button-div .contact:hover {
   transition: 0.3s ease-in-out;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1080px) and (orientation: landscape) {
+@media only screen and (min-width: 769px) and (max-width: 1080px) {
   .svg-502-img {
     width: 40vw;
     height: 800vh;
@@ -124,7 +124,7 @@ body main section .button-div .contact:hover {
     margin-left: -100px;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
   .svg-502-img {
     width: 40vw;
     height: 8vh;
@@ -133,12 +133,21 @@ body main section .button-div .contact:hover {
     bottom: -60vh;
   }
 }
-@media only screen and (min-width: 320px) and (max-width: 425px) {
+@media only screen and (min-width: 320px) and (max-width: 425px) and (orientation: landscape) {
   .svg-502-img {
     width: 30em;
     height: 20em;
     position: absolute;
     left: 15em;
     top: 25vh;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 425px) and (orientation: portrait) {
+  .svg-502-img {
+    width: 15em;
+    height: 10em;
+    position: absolute;
+    left: 23em;
+    bottom: 2000px;
   }
 }/*# sourceMappingURL=about.css.map */

@@ -201,8 +201,8 @@ body{
 
 // @media only screen and (min-width: 320px) and (max-width: 1080px) and (orientation: portrait) {
 
-
-@media only screen and (min-width: 320px) and (max-width: 1080px) and (orientation: landscape) {
+//This is for desktop
+@media only screen and (min-width: 769px) and (max-width: 1080px) {
     .svg-502-img{
         width: 40vw;
         height: 800vh;
@@ -213,8 +213,11 @@ body{
         // left: 100vh;
         // display: none;
     }
-  }
-  @media only screen and (min-width: 320px) and (max-width: 768px) {
+}
+
+
+//This is for Tablet
+@media only screen and (min-width: 426px) and (max-width: 768px) {
     .svg-502-img{
         width: 40vw;
         height: 8vh;
@@ -224,8 +227,10 @@ body{
         // left: 100vh;
         // display: none;
     }
-  }
-  @media only screen and (min-width: 320px) and (max-width: 425px) {
+}
+
+//This is for Phones
+@media only screen and (min-width: 320px) and (max-width: 425px) and (orientation: landscape) {
     .svg-502-img{
         width: 30em;
         height: 20em;
@@ -235,7 +240,26 @@ body{
         // left: 100vh;
         // display: none;
     }
-  }
+}
+@media only screen and (min-width: 320px) and (max-width: 425px) and (orientation: portrait) {
+    .svg-502-img{
+        width: 15em;
+        height: 10em;
+        position: absolute;
+        left: 23em;
+        bottom: 2000px;
+        // border: 1px solid red;
+        // left: 100vh;
+        // display: none;
+    }
+}
+
+
+
+
+
+
+
 //   @media only screen and (min-width: 320px) and (max-width: 425px) {
 //     .svg-502-img{
 //         width: 30em;
