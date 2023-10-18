@@ -120,11 +120,19 @@ body main section .button-div .contact:hover {
     height: 800vh;
     position: absolute;
     right: 1vh;
-    border: 1px solid yellow;
     margin-left: -100px;
   }
 }
-@media only screen and (min-width: 426px) and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) and (orientation: landscape) {
+  .svg-502-img {
+    width: 40vw;
+    height: 8vh;
+    position: absolute;
+    right: 1vh;
+    bottom: -60vh;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) and (orientation: portrait) {
   .svg-502-img {
     width: 40vw;
     height: 8vh;

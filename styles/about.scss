@@ -208,7 +208,7 @@ body{
         height: 800vh;
         position: absolute;
         right: 1vh;
-        border: 1px solid yellow;
+        // border: 1px solid yellow;
         margin-left: -100px;
         // left: 100vh;
         // display: none;
@@ -217,7 +217,7 @@ body{
 
 
 //This is for Tablet
-@media only screen and (min-width: 426px) and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) and (orientation: landscape) {
     .svg-502-img{
         width: 40vw;
         height: 8vh;
@@ -228,6 +228,20 @@ body{
         // display: none;
     }
 }
+@media only screen and (min-width: 426px) and (max-width: 768px) and (orientation: portrait) {
+    .svg-502-img{
+        width: 40vw;
+        height: 8vh;
+        position: absolute;
+        right: 1vh;
+        bottom: -60vh;
+        // border: 1px solid black;
+        // left: 100vh;
+        // display: none;
+    }
+}
+
+
 
 //This is for Phones
 @media only screen and (min-width: 320px) and (max-width: 425px) and (orientation: landscape) {
